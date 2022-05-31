@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "UBERON": "http://purl.obolibrary.org/obo/UBERON_",
+    "CL": "http://purl.obolibrary.org/obo/CL_",
+  }
+}

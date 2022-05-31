@@ -1,0 +1,5 @@
+robot template --merge-before \
+  --input cap_helper.owl \
+  --template ../templates/template.csv \
+  annotate --annotation rdfs:comment "CAP Organ List Ontology" \
+  --output ../results/cap_organ_slim.owl
