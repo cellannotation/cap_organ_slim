@@ -1,3 +1,4 @@
+# PLACEHOLDER
 ROBOT = robot
 URIBASE = http://purl.obolibrary.org/obo
 
