@@ -2,6 +2,14 @@
 
 A repository for building organ list for the Cell Annotation Platform.
 
+## General Work FLow
+
+- Make robot template to generate cap_organ_subset tags for this list of terms. Build to test.
+- Robot template will live in new repo 
+- Add to triplestore loading config (GitHub raw URL) : https://github.com/kharchenkolab/cap-pipeline-config/blob/main/config/collectdata/vfb_fullontologies.txt
+- Update the script that updates the YAML config to point to our local knowledgeBase
+- Update the organ SPARQL query to use this new subset
+
 
 ## Prerequisite
 
