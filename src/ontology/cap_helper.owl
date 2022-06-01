@@ -10,7 +10,6 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/cap_helper.owl>
-Annotation(dce:title "CAP Organ List Helper Ontology")
 Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/uberon#cap_organ_slim>))
