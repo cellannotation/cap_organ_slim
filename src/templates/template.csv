@@ -1,13 +1,16 @@
 ID,subset,label
 ID,AI oboInOwl:inSubset,
 UBERON:0002369,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,adrenal gland
+UBERON:0000972,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,antenna
 UBERON:0001245,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,anus
 UBERON:0001154,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,vermiform appendix
 UBERON:0001637,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,artery
 UBERON:0018707,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,bladder organ
 UBERON:0000178,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,blood
 UBERON:0001981,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,blood vessel
+UBERON:0013702,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,body proper
 UBERON:0001013,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,adipose tissue
+UBERON:3000977,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,body external integument structure
 UBERON:0001474,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,bone element
 UBERON:0000955,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,brain
 UBERON:0000310,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,breast
@@ -20,10 +23,13 @@ UBERON:0001103,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,diaphragm
 UBERON:0001690,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,ear
 UBERON:0001043,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,esophagus
 UBERON:0000970,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,eye
-UBERON:0003889,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,fallopian tubes
+UBERON:0003889,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,fallopian tube
+UBERON:0003916,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,fat pad
 UBERON:0002110,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,gall bladder
-UBERON:3011048,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,genital system
+UBERON:0001007,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,digestive system
 UBERON:0002073,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,hair follicle
+UBERON:0000987,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,haltere
+UBERON:0000033,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,head
 UBERON:0000948,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,heart
 UBERON:0001898,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,hypothalamus
 UBERON:0005169,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,interstitial tissue
@@ -32,11 +38,14 @@ UBERON:0000982,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,skeletal joi
 UBERON:0002113,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,kidney
 UBERON:0000059,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,large intestine
 UBERON:0001737,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,larynx
+UBERON:0000978,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,leg
 UBERON:0008846,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,skeletal ligament
 UBERON:0002107,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,liver
 UBERON:0002048,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,lung
 UBERON:0002048,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,lung
 UBERON:0002465,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,lymphoid system
+UBERON:0005399,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,male reproductive gland
+UBERON:0001054,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,Malpighian tubule
 UBERON:0001911,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,mammary gland
 UBERON:0015143,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,mesenteric fat pad
 UBERON:0002095,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,mesentery
@@ -44,6 +53,7 @@ UBERON:0000165,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,mouth
 UBERON:0001705,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,nail
 UBERON:0001021,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,nerve
 UBERON:0000004,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,nose
+CL:0000487,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,oenocyte
 UBERON:0000992,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,ovary
 UBERON:0001264,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,pancreas
 UBERON:0001132,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,parathyroid gland
@@ -52,8 +62,10 @@ UBERON:0006562,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,pharynx
 UBERON:0001905,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,pineal body
 UBERON:0000007,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,pituitary gland
 UBERON:0001987,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,placenta
+UBERON:6004535,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,insect proboscis
 UBERON:0002367,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,prostate gland
 UBERON:0001052,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,rectum
+UBERON:0000990,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,reproductive system
 UBERON:0001044,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,saliva-secreting gland
 UBERON:0001300,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,scrotum
 UBERON:0000998,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,seminal vesicle
@@ -81,3 +93,4 @@ UBERON:0001638,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,vein
 UBERON:0001638,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,vein
 UBERON:0005160,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,vestigial structure
 UBERON:0000997,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,mammalian vulva
+UBERON:0000023,http://purl.obolibrary.org/obo/uberon#cap_organ_slim,wing
