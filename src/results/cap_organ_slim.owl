@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/cap_helper.owl#"
      xml:base="http://purl.obolibrary.org/obo/cap_helper.owl"
+     xmlns:dce="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cap_helper.owl">
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAP Organ List Ontology</rdfs:comment>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <rdfs:comment>CAP Organ List Ontology</rdfs:comment>
     </owl:Ontology>
     
 
@@ -33,6 +34,12 @@
         <rdfs:label>cap_organ_slim</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -67,6 +74,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000487">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000002">
@@ -86,6 +101,22 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000007">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000023">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000033">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
     </owl:Class>
     
@@ -195,6 +226,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000972">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000978">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000982 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000982">
@@ -203,9 +250,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000987">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000989 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000989">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000990">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
     </owl:Class>
     
@@ -259,6 +322,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001007">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001013">
@@ -294,6 +365,14 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001052">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001054">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
     </owl:Class>
     
@@ -627,6 +706,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003916">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005160">
@@ -638,6 +725,14 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005169">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005399">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
     </owl:Class>
     
@@ -667,6 +762,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013702">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0015143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015143">
@@ -683,14 +786,22 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_3011048 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_3000977 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_3011048">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_3000977">
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_6004535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_6004535">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon#cap_organ_slim"/>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
